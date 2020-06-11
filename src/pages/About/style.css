@@ -1,0 +1,46 @@
+#about {
+  font-size: 18px;
+  font-family: monospace;
+  color: #f0f0f5;
+}
+
+#about .component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: ;
+}
+
+.myBox {
+    background-color: rgba(74, 0, 212, 0.123);
+    padding: 10px;
+    margin: 25px;
+    height: auto;
+    width: 450px;
+    border-radius: 5px;
+}
+
+
+.progress-bar{
+    height: 50px;
+    padding: 5px;
+    background-color: #ccc;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    display: flex;
+  }
+  
+  .progress-bar::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: 45%;
+    background-color: rgb(142, 248, 20);
+  }

@@ -1,0 +1,26 @@
+#title {
+    font-family: Ubuntu;
+    color: #34CB79;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    
+}
+
+@keyframes code {
+    from {left: 0px;}
+    to {left: 10px;}
+
+}
+
+#iconNavbar {
+    color: #34CB79;
+}
